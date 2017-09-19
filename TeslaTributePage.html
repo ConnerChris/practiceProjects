@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>TESLA</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: black;
+}
+
+.comment_text {
+	margin-top: 10px;
+	margin-left: 315px;
+	color: white;
+}
+
+.comment_picture {
+	margin-left: -80px;
+}
+
+.headliner {
+	color: white;
+	font-style: normal;
+	font-family: Times, sans-serif, serif;;
+}
+
+.tesla_image_caption {
+	border-radius: 8px;
+	height: 120px;
+
+}
+
+.tesla_image_photo {
+	border-radius: 8px;
+	width: 40%;
+
+}
+
+.page-header {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.jumbotron {
+	background-color: #303030;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.panel > .panel-heading   {
+	background-image: none;
+	background-color: #303030;
+	color: white;
+}
+
+.panel-heading {
+	border-radius: 2px;
+}
+
+.panel-default {
+	border-width: 0px;
+}
+
+.caption {
+	color: white;
+	margin-top: 10px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.navbar {
+	background-color: #303030;
+	border-radius: 5px;
+	margin-bottom: 0px;
+}
+
+.main_image {
+	width: 80%;
+}
+
+.message_box {
+	background-color: #303030;
+}
+
+.counter {
+	color: white;
+	display: inline;
+	margin-right: 10px;
+}
+
+.posts {
+	clear: both;
+	list-style: none;
+	padding-left: 0px;
+	width: 100%;
+}
+
+.posts li {
+	background-color: #fff;
+	border: 1px solid #d8d8d8;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 300px;
+	margin-right: 80px;
+	word-wrap: break-word;
+	min-height: 30px;
+}
+
+</style>
+
+<body>
+
+	<!-- page header -->
+
+	<div class="container">
+		<div class="page-header">
+			<div class="row">
+				<div class="col-md-8">
+					<h1 class="headliner">Nikola Tesla</h1>
+				</div>
+				<div class="col-md-4">
+					<img class="tesla_image_caption img-responsive pull-right" src="https://pbs.twimg.com/media/CGMDfjXUoAEveE6.jpg" alt="Nikola Tesla picture">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- end page-header -->
+
+
+	<!-- begin nav -->
+
+	<div class="container">
+		<nav role="navigation" class="navbar navbar-inverse">
+			<div class="navbar-header">
+				<ul class="nav navbar-nav">
+					<li><a href="https://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank">Wikipedia</a></li>
+					<li><a href="http://www.nikolateslamuseum.org/web/index.php?l=en" target="_blank">Museum</a></li>
+					<li><a href="https://www.biography.com/people/nikola-tesla-9504443" target="_blank">Biography</a></li>
+					<li><a href="#synopsis">Synopsis</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<!-- end nav -->
+
+
+	<!-- begin jumbotron -->
+
+	<div class="container">
+		<div class="jumbotron">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="text-center">
+						<p>
+							<h2 class="headliner">The Dreamer and the Mad Scientist</h2>
+						</p>
+						<img class="main_image img-rounded" src="http://www-tc.pbs.org/prod-media/newshour/photos/2013/07/10/Tesla_colorado_adjusted_slideshow.jpg" alt="Tesla coil">
+						<div class="caption text-center">This tesla coil snuffed out the power in Colorado Springs when this photo was taken. Photo by Dickenson V. Alley, photographer at the Century Magazines via Wikimedia Commons.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- end jumbotron -->
+
+	<!-- Begin panels -->
+
+	<div class="container">
+		<div class="panel-group" id="accordion">
+
+			<div class="panel panel-default">
+				<div class="panel-heading" id="synopsis">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Quick Bio</a>
+					</h4>
+				</div>
+
+				<div id="collapse1" class="panel-collapse collapse in">
+					<div class="panel-body"><p>Inventor Nikola Tesla was born in July of 1856, in what is
+							now Croatia. He came to the United States in 1884 and briefly worked with
+							Thomas Edison before the two parted ways. He sold several patent rights,
+							including those to his alternating-current machinery, to George Westinghouse.
+							His 1891 invention, the "Tesla coil," is still used in radio technology today. Tesla
+							died in New York City on January 7, 1943.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Early Life</a>
+					</h4>
+				</div>
+
+				<div id="collapse2" class="panel-collapse collapse">
+					<div class="panel-body"><p>Nikola Tesla was born on July 10, 1856, in what is now
+								Smiljan, Croatia. He was one of five children which included siblings Dane,
+								Angelina, Milka and Marica, in the family. Tesla's interest in electrical invention
+								was spurred by his mother, Djuka Mandic, who invented small household
+								appliances in her spare time while her son was growing up. Tesla's father,
+								Milutin Tesla, was a Serbian orthodox priest and a writer, and he pushed
+								for his son to join the priesthood. But Nikola's interests lay squarely in the
+								sciences. After studying at the Realschule, Karlstadt (later renamed the
+								Johann-Rudolph-Glauber Realschule Karlstadt); the Polytechnic Institute in
+								Graz, Austria; and the University of Prague during the 1870s, Tesla moved
+								to Budapest, where for a time he worked at the Central Telephone Exchange.
+								It was while in Budapest that the idea for the induction motor first came to
+								Tesla, but after several years of trying to gain interest in his invention, at age
+								28 Tesla decided to leave Europe for America.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">	Famed Inventor</a>
+					</h4>
+				</div>
+
+				<div id="collapse3" class="panel-collapse collapse">
+					<div class="panel-body"><p>In 1884 Tesla arrived the United States with little more
+										than the clothes on his back and a letter of introduction to famed inventor and
+										business mogul Thomas Edison, whose DC-based electrical works were fast
+										becoming the standard in the country. Edison hired Tesla, and the two men were
+										soon working tirelessly alongside each other, making improvements to Edison's
+										inventions. However, several months later, the two parted ways due to a
+										conflicting business-scientific relationship, attributed by historians to their
+										incredibly different personalities: While Edison was a power figure who focused
+										on marketing and financial success, Tesla was commercially out-of-tune and
+										somewhat vulnerable.</p>
+
+										<p>After parting ways with Edison, in 1885 Tesla received funding for the Tesla
+										Electric Light Company and was tasked by his investors to develop improved
+										arc lighting. After successfully doing so, however, Tesla was forced out of the
+										venture and for a time had to work as a manual laborer in order to survive.
+										His luck changed in 1887, when he was able to find interest in his AC electrical
+										system and funding for his new Tesla Electric Company. Setting straight to
+										work, by the end of the year, Tesla had successfully filed several patents for
+										AC-based inventions.  </p>
+
+										<p>Tesla's AC system eventually caught the attention of American engineer and
+										business man George Westinghouse, who was seeking a solution to supplying
+										the nation with long-distance power. Convinced that Tesla's inventions would
+										help him achieve this, in 1888 he purchased his patents for $60,000 in cash
+										and stock in the Westinghouse Corporation. As interest in an
+										alternating-current system grew, Tesla and Westinghouse were put in direct
+										competition with Thomas Edison, who was intent on selling his direct-current
+										system to the nation. A negative-press campaign was soon waged by Edison,
+										in an attempt to undermine interest in AC power. Tesla, for his part,
+										continued in his work and would patent several more inventions during this
+										period, including the "Tesla coil," which laid the foundation for wireless
+										technologies and is still used in radio technology today.</p>
+
+										<p>Unfortunately for Thomas Edison, the Westinghouse Corporation was chosen
+										to supply the lighting at the 1893 World's Columbian Exposition in Chicago,
+										and Tesla conducted demonstrations of his AC system there. Two years later,
+										in 1895, Tesla designed what was among the first AC hydroelectric power
+										plants in the United States, at Niagara Falls. The following year, it was used
+										to power the city of Buffalo, New York, a feat that was highly publicized
+										throughout the world. With its repeat successes and favorable press, the
+										alternating-current system would quickly become the preeminent power
+										system of the 20th century, and it has remained the worldwide standard
+										ever since.</p>
+
+										<p>In addition to his AC system and coil, throughout his career, Tesla discovered,
+										designed and developed ideas for a number of other important
+										inventions—most of which were officially patented by other
+										inventors—including dynamos (electrical generators similar to batteries) and
+										the induction motor. He was also a pioneer in the discovery of radar
+										technology, X-ray technology, remote control and the rotating magnetic
+										field—the basis of most AC machinery.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Fall from Grace</a>
+					</h4>
+				</div>
+
+				<div id="collapse4" class="panel-collapse collapse">
+					<div class="panel-body"><p>Having become obsessed with the wireless
+						transmission of energy, around 1900 Nikola set to work on his
+						boldest project yet: to build a global, wireless communication
+						system—to be transmitted through a large electrical tower—for
+						sharing information and providing free electricity throughout the
+						world. With funding from a group of investors that included financial
+						giant J. P. Morgan, in 1901 Tesla began work on the project in
+						earnest, designing and building a lab with a power plant and a
+						massive transmission tower on a site on Long Island, New York,
+						that became known as Wardenclyffe. However, when doubts arose
+						among his investors about the plausibility of Tesla's system and his
+						rival, Guglielmo Marconi—with the financial support of Andrew
+						Carnegie and Thomas Edison—continued to make great advances
+						with his own radio technologies, Tesla had no choice but to abandon
+						the project. The Wardenclyffe staff was laid off in 1906 and by 1915
+						the site had fallen into foreclosure. Two years later Tesla declared
+						bankruptcy and the tower was dismantled and sold for scrap to help
+						pay the debts he had accrued.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Death and Legacy</a>
+					</h4>
+				</div>
+
+				<div id="collapse5" class="panel-collapse collapse">
+					<div class="panel-body"><p>After suffering a nervous breakdown, Tesla
+						eventually returned to work, primarily as a consultant. But as time
+						went on, his ideas became progressively more outlandish and
+						impractical. He also grew increasingly eccentric, devoting much
+						of his time to the care of wild pigeons in New York City's parks. He
+						even drew the attention of the FBI with his talk of building a
+						powerful "death beam," which had received some interest from the
+						Soviet Union during World World II. </p>
+						<p>Poor and reclusive, Nikola Tesla died on January 7, 1943, at the
+						age of 86, in New York City, where he had lived for nearly 60
+						years. But the legacy of the work he left behind him lives on to
+						this day.</p>
+						<p>Several books and films have highlighted Tesla's life and famous
+						works, including Nikola Tesla, The Genius Who Lit the World, a
+						documentary produced by the Tesla Memorial Society and the
+						Nikola Tesla Museum in Belgrade, Serbia; and The Secret of
+						Nikola Tesla, which stars Orson Welles as J. P. Morgan). And in
+						the 2006 Christopher Nolan film The Prestige, Tesla was
+						portrayed by rock star/actor David Bowie. In 1994, a street sign
+						identifying "Nikola Tesla Corner" was installed near the site of his
+						former New York City laboratory, at the intersection of 40th Street
+						and 6th Avenue. </p>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Acknowledgements</a>
+					</h4>
+				</div>
+
+				<div id="collapse6" class="panel-collapse collapse">
+					<div class="panel-body">
+						<ul>
+							<h4>Citation Information: All information on this page was copied from the following webpage.</h4>
+							<li>Article Title: Nikola Tesla</li>
+							<li>Author: Biography.com Editors</li>
+							<li>Website Name: The Biography.com</li>
+							<li>URL: https://www.biography.com/people/nikola-tesla-9504443</li>
+							<li>Publisher: A&E Television Networks</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+<!-- End panels -->
+
+<div class="container">
+	<div class="panel message_box">
+
+		<div class="row">
+
+			<div class="col-md-9 comment_text">
+				<p><h4>Like this page? Leave a comment below!</h4></p>
+			</div>
+		</div>
+
+		<div class="panel-body">
+			<div class="row">
+				<div class="col-lg-4 comment_picture">
+					<img class="tesla_image_photo img-responsive center-block" src="https://upload.wikimedia.org/wikipedia/commons/archive/5/56/20100908150945%21Tesla3.jpg" alt="Nikola Tesla photo">
+				</div>
+
+				<div class="col-lg-8">
+					<form id="comment_section">
+						<div class="form-group">
+							<textarea class="form-control status-box" rows="2" placeholder="What's on your mind?"></textarea>
+						</div>
+						<div class="button-group pull-right">
+							<p class="counter">140</p>
+							<a href="#comment_section" class="btn btn-primary">Post</a>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<ul class="posts">
+			</ul>
+
+		</div>
+	</div>
+</div>
+<script>
+
+var main = function() {
+
+    $('.btn').click(function() {
+
+//New variable = to the text in the textarea
+     var post = $('.status-box').val();
+
+//Create new list item, set text of li to variable post
+     $('<li>').text(post).prependTo('.posts');
+
+
+//Select status box value and set it to "empty"
+     $('.status-box').val('');
+
+//Select counter and reset chars to 140
+     $('.counter').text(140);
+
+//Select button, disable after posting
+     $('.btn').addClass('disabled');
+
+    });
+
+//<------>
+
+//Select status box
+     $('.status-box').keyup(function() {
+
+//New variable gets the value of the length of the string entered
+     var postLength = $(this).val().length;
+
+//New variable determines length of chars left
+     var charactersLeft = 140 - postLength;
+
+//Update string counter with how many chars left
+     $('.counter').text(charactersLeft);
+
+//If counter = 0 then disable button
+     if(charactersLeft < 0) {
+         $('.btn').addClass('disabled');
+     }
+
+//If counter = 140 then disable button
+     else if(charactersLeft === 140) {
+         $('.btn').addClass('disabled');
+     }
+
+//If counter is anything between 0 - 140 then remove the disable
+     else {
+         $('.btn').removeClass('disabled');
+     }
+  });
+
+
+//Select button and disable it unless chars < 0
+    $('.btn').addClass('disabled');
+};
+
+
+$(document).ready(main);
+
+
+</script>
+
+</body>
